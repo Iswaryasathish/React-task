@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(233, 236, 52);
+    font-size: 27px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: white;
+    background-color: rgb(156, 18, 190);
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    font-weight: 25px;
+}
+.home,.services,.about{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.home1,.about1,.services1{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-left: 100px;
+}
+.content1{
+    color: black;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+.about:hover{
+    color: red;    
+    
+}
+.home:hover{
+    color: red;
+
+}
+.services:hover{
+    color: red;
+
+}
